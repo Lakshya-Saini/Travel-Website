@@ -35,7 +35,7 @@ nav{ position: absolute; top: 0; left: 0; width: 100%; z-index: 2; height: 50px;
 
 .search-form{ position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: 600px; height: 44px; opacity: 0; visibility: hidden; line-height: 50px; transition: 0.6s; }
 .search-form.active{ opacity: 1; visibility: visible; transition-delay: 0.5s; }
-.search-form input{ width: 100%; height: 44px; background: transparent; color: #fff; border: none; outline: none; font-size: 16px; }
+.search-form input{ width: 100%; height: 44px; background: transparent; color: #fff; border: none; outline-color: transparent; font-size: 16px; }
 .search-form input::placeholder{ color: #fff; }
 .search-form:before{ content: '\f002'; position: absolute; top: 0px; left: -24px; font-size: 18px; color: #fff; font-family: fontAwesome; }
 .close{ position: absolute; top: 0; right: 0; line-height: 45px; font-size: 19px; font-weight: 400; color: #fff; opacity: 0; visibility: hidden; }
@@ -55,7 +55,7 @@ nav{ position: absolute; top: 0; left: 0; width: 100%; z-index: 2; height: 50px;
 .header-content{ z-index: 2; margin: 0 auto; }
 .header-content h2{ font-size:100px; margin-bottom:40px; font-family: 'Beyond', sans-serif; }
 .header-content p{ font-size:25px; font-family: 'Helvetica', cursive; display:block; padding-bottom:2rem; }
-a.btn{ background: transparent; color:#fff; font-size:18px; padding: 8px 30px; text-decoration: none; border: 1px solid #fff; font-family: 'Helvetica',sans-serif; border-radius: 30px; outline: none !important; transition: all 0.6s; }
+a.btn{ background: transparent; color:#fff; font-size:18px; padding: 8px 30px; text-decoration: none; border: 1px solid #fff; font-family: 'Helvetica',sans-serif; border-radius: 30px; outline-color: transparent !important; transition: all 0.6s; }
 a.btn:hover{ cursor: pointer; background: linear-gradient(to right, #159957, #155799); border: 1px solid #159957; color: rgba(255,255,255,0.95); }
 
 /* Trending Slider */
